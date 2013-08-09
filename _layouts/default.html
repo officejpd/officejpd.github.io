@@ -1,0 +1,14 @@
+{% include top.html %}
+<body class="{% if page.home %}home{% else %}default{% endif %}">
+    <header class="navbar navbar-fixed-top">
+        {% include nav.html %}
+    </header>
+    <div class="wrapper">
+        {{ content }}
+    </div>
+    <footer class="container text-center">
+        <small>&copy; 2013 Office &amp; Company</small>
+    </footer>
+{% include scripts.html %}
+</body>
+</html>

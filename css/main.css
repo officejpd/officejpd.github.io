@@ -1,0 +1,140 @@
+body {
+    background-color: #f0f0f0;
+    color: #444;
+}
+.color-orangered {
+    color: orangered;
+}
+.navbar-nav>li.active>a, .navbar-nav>li.active>a:hover, .navbar-nav>li>a:hover {
+    color: orangered;
+    background-color: inherit;
+}
+.home .navbar {
+    background-color: #f0f0f0;
+    opacity: 0.96;
+    padding-left: 0;
+    padding-right: 0;
+}
+.default .navbar {
+    background-color: #fff;
+}
+.navbar-inner {
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.home .wrapper {
+    background-color: #fff;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-bottom: 40px;
+}
+.navbar-brand {
+    max-width: 250px;
+}
+.navbar-brand h1 {
+    font-size: 22px;
+    margin: 0;
+}
+.navbar-brand h2 {
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin: 0;
+}
+@media screen and (min-width: 769px) {
+    .home .navbar-inner {
+        border-width: 0 1px;
+        border-color: #ccc;
+        border-style: solid;
+        -moz-box-shadow: 0 1px 10px #ccc;
+        -webkit-box-shadow: 0 1px 10px #ccc;
+        box-shadow: 0 1px 10px #ccc;
+    }
+    .home .wrapper {
+        border-width: 0 1px 1px 1px;
+        border-color: #ccc;
+        border-style: solid;
+        -moz-box-shadow: 0 1px 10px #ccc;
+        -webkit-box-shadow: 0 1px 10px #ccc;
+        box-shadow: 0 1px 10px #ccc;
+        -moz-border-bottom-left-radius: 5px;
+        -webkit-border-bottom-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .default .wrapper {
+        padding-top: 100px;
+    }
+}
+footer {
+    padding: 40px 0;
+}
+@media screen and (max-width: 768px) {
+    .navbar-brand h2 {
+        display: none;
+    }
+}
+.feature {
+    padding-top: 20px;
+    text-align: center;
+}
+.feature-heading {
+    font-weight: 200;
+}
+.feature .lead {
+    margin-top: 10px;
+}
+.feature-image {
+    background-color: orangered;
+    border-radius: 500px;
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    margin: 0 auto;
+}
+.feature-image i {
+    color: #fff;
+    vertical-align: middle;
+    line-height: 140px;
+    font-size: 70px;
+}
+.marketing {
+    padding-bottom: 20px;
+}
+.section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.section-heading {
+    font-weight: 200;
+}
+#showcase .carousel-caption {
+    /*text-align: left;*/
+    /*background-color: #000;
+    opacity: 0.2;
+    padding: 10px;
+    border-radius: 5px;*/
+    max-width: 300px;
+    text-align: left;
+}
+.pricing {
+    margin: 0 auto;
+    max-width: 300px;
+}
+.membership li {
+    margin-bottom: 10px;
+}
+.contact {
+    margin: 0 auto;
+    width: 300px;
+}
+.contact .media {
+    margin-top: 10px;
+}
+.contact .media-object {
+    width: 15px;
+}
+hr {
+    margin: 0;
+}
