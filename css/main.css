@@ -103,18 +103,12 @@ footer {
     padding-bottom: 20px;
 }
 .section {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0;
 }
 .section-heading {
     font-weight: 200;
 }
 #showcase .carousel-caption {
-    /*text-align: left;*/
-    /*background-color: #000;
-    opacity: 0.2;
-    padding: 10px;
-    border-radius: 5px;*/
     max-width: 300px;
     text-align: left;
 }
@@ -125,9 +119,20 @@ footer {
 .membership li {
     margin-bottom: 10px;
 }
-.contact {
+@media screen and (min-width: 729px) {
+    .contact {
+        border-left: solid 1px #eee;
+    }
+}
+@media screen and (max-width: 728px) {
+    .contact-list {
+        border-top: solid 1px #eee;
+        padding-top: 20px;   
+    }
+}
+.contact-list {
     margin: 0 auto;
-    width: 300px;
+    width: 250px;
 }
 .contact .media {
     margin-top: 10px;
